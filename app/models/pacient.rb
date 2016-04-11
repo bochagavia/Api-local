@@ -10,4 +10,5 @@
 
 class Pacient < ActiveRecord::Base
 	belongs_to :user_pacient
+	has_many :appointments
 end
