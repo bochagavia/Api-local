@@ -11,6 +11,8 @@
 #  date        :datetime
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  doctor_id   :integer
+#  pacient_id  :integer
 #
 
 FactoryGirl.define do

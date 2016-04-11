@@ -23,4 +23,6 @@
 #
 
 class UserPacient < User
+	has_many :pacients, dependent: :destroy
+	has_many :appointments
 end
