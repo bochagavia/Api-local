@@ -22,5 +22,5 @@
 #  type                   :string
 #
 
-class Doctor < User
+class UserPacient < User
 end
