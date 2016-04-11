@@ -9,6 +9,6 @@
 #
 
 class Pacient < ActiveRecord::Base
-	belongs_to :user_pacient
+	belongs_to :user_patient
 	has_many :appointments
 end
