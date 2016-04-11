@@ -22,6 +22,8 @@
 #  type                   :string
 #
 
-class Doctor < User
-	has_many :appointments
+require 'rails_helper'
+
+RSpec.describe UserPacient, type: :model do
+  pending "add some examples to (or delete) #{__FILE__}"
 end
