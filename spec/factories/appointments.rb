@@ -12,7 +12,7 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  doctor_id   :integer
-#  pacient_id  :integer
+#  patient_id  :integer
 #
 
 FactoryGirl.define do

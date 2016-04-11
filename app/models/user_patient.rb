@@ -22,6 +22,6 @@
 #  type                   :string
 #
 
-class UserPacient < User
+class UserPatient < User
 	has_many :patients, dependent: :destroy
 end
